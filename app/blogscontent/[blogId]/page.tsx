@@ -2,13 +2,8 @@
 
 import BlogsContentSection from '../../NewPages/BlogsContentSection';
 
-interface PageProps {
-  params: {
-    blogId: string;
-  };
-}
-
-export default function Page({ params }: PageProps) {
+// Inline param typing to avoid conflicts with Next's generated types
+export default function Page({ params }: { params: { blogId: string } }) {
   return <BlogsContentSection blogId={params.blogId} />;
 }
 
