@@ -2,9 +2,10 @@
 
 import BlogsContentSection from '../../NewPages/BlogsContentSection';
 
-// Inline param typing to avoid conflicts with Next's generated types
-export default function Page({ params }: { params: { blogId: string } }) {
-  return <BlogsContentSection blogId={params.blogId} />;
+// Next.js 15+ requires params to be awaited
+export default async function Page({ params }: { params: Promise<{ blogId: string }> }) {
+  const { blogId } = await params;
+  return <BlogsContentSection blogId={blogId} />;
 }
 
 // ✅ Must return plain objects, not JSX!
