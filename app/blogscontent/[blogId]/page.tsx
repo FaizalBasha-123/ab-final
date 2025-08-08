@@ -8,9 +8,8 @@ interface PageProps {
   };
 }
 
-export default async function Page({ params }: PageProps) {
-  const awaitedParams = await params;
-  return <BlogsContentSection blogId={awaitedParams.blogId} />;
+export default function Page({ params }: PageProps) {
+  return <BlogsContentSection blogId={params.blogId} />;
 }
 
 // ✅ Must return plain objects, not JSX!
