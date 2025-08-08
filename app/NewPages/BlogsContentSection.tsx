@@ -61,7 +61,7 @@ const BlogsContentSection = ({ blogId }: BlogsContentSectionProps) => {
         <section className="py-20 bg-gradient-to-b from-white to-[#f8fafc] min-h-screen">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <img src={blog.image} alt={blog.title} className="mx-auto rounded-2xl w-full max-w-lg h-72 object-cover shadow-xl mb-10 border-4 border-[#e5e7eb]" />
-            <h2 className="text-4xl lg:text-5xl font-avenir font-extrabold text-[#202b5e] mb-4 text-center drop-shadow">{blog.title}</h2>
+            <h2 className="text-4xl lg:text-5xl font-avenir font-bold text-[#202b5e] mb-4 text-center drop-shadow">{blog.title}</h2>
             <p className="text-lg md:text-xl font-freight text-gray-700 mb-10 text-center max-w-2xl mx-auto">{blog.content}</p>
             {/* Extra data from the image */}
             <div className="space-y-10">
@@ -142,7 +142,7 @@ const BlogsContentSection = ({ blogId }: BlogsContentSectionProps) => {
         <section className="py-20 bg-gradient-to-b from-white to-[#f8fafc] min-h-screen">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <img src={blog.image} alt={blog.title} className="mx-auto rounded-2xl w-full max-w-lg h-72 object-cover shadow-xl mb-10 border-4 border-[#e5e7eb]" />
-            <h2 className="text-4xl lg:text-5xl font-avenir font-extrabold text-[#202b5e] mb-4 text-center drop-shadow">{blog.title}</h2>
+            <h2 className="text-4xl lg:text-5xl font-avenir font-bold text-[#202b5e] mb-4 text-center drop-shadow">{blog.title}</h2>
             <p className="text-lg md:text-xl font-freight text-gray-700 mb-10 text-center max-w-2xl mx-auto">{blog.content}</p>
             <div className="space-y-10">
               <div>
@@ -212,7 +212,7 @@ const BlogsContentSection = ({ blogId }: BlogsContentSectionProps) => {
         <section className="py-20 bg-gradient-to-b from-white to-[#f8fafc] min-h-screen">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <img src={blog.image} alt={blog.title} className="mx-auto rounded-2xl w-full max-w-lg h-72 object-cover shadow-xl mb-10 border-4 border-[#e5e7eb]" />
-            <h2 className="text-4xl lg:text-5xl font-avenir font-extrabold text-[#202b5e] mb-4 text-center drop-shadow">{blog.title}</h2>
+            <h2 className="text-4xl lg:text-5xl font-avenir font-bold text-[#202b5e] mb-4 text-center drop-shadow">{blog.title}</h2>
             <p className="text-lg md:text-xl font-freight text-gray-700 mb-10 text-center max-w-2xl mx-auto">In the fast-paced world of MSMEs and startups, growth is often hindered not by external threats — but by everyday internal errors. These recurring issues may seem small, but they silently erode your profits, delay your scaling, and frustrate your team. So, what's holding you back?</p>
             <div className="space-y-10">
               <div>
@@ -284,7 +284,7 @@ const BlogsContentSection = ({ blogId }: BlogsContentSectionProps) => {
         <section className="py-20 bg-gradient-to-b from-white to-[#f8fafc] min-h-screen">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <img src={blog.image} alt={blog.title} className="mx-auto rounded-2xl w-full max-w-lg h-72 object-cover shadow-xl mb-10 border-4 border-[#e5e7eb]" />
-            <h2 className="text-4xl lg:text-5xl font-avenir font-extrabold text-[#202b5e] mb-4 text-center drop-shadow">{blog.title}</h2>
+            <h2 className="text-4xl lg:text-5xl font-avenir font-bold text-[#202b5e] mb-4 text-center drop-shadow">{blog.title}</h2>
             <p className="text-lg md:text-xl font-freight text-gray-700 mb-10 text-center max-w-2xl mx-auto">Small business mistakes don’t always come with alarms.<br/>They often feel like “part of the process” — missed follow-ups, unclear roles, inconsistent service, or untrained staff. But when left unchecked, these seemingly minor errors snowball into lost customers, wasted time, employee turnover, and stalled growth.<br/><br/>These aren’t one-time blunders. They’re recurring patterns caused by a <b>lack of structure</b>.</p>
             <div className="space-y-10">
               <div>
@@ -360,7 +360,7 @@ const BlogsContentSection = ({ blogId }: BlogsContentSectionProps) => {
         <section className="py-20 bg-gradient-to-b from-white to-[#f8fafc] min-h-screen">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <img src={blog.image} alt={blog.title} className="mx-auto rounded-2xl w-full max-w-lg h-72 object-cover shadow-xl mb-10 border-4 border-[#e5e7eb]" />
-            <h2 className="text-4xl lg:text-5xl font-avenir font-extrabold text-[#202b5e] mb-4 text-center drop-shadow">{blog.title}</h2>
+            <h2 className="text-4xl lg:text-5xl font-avenir font-bold text-[#202b5e] mb-4 text-center drop-shadow">{blog.title}</h2>
             <div className="space-y-8">
               <p className="text-lg md:text-xl font-freight text-gray-700 mb-10 text-center max-w-2xl mx-auto">{blog.content}</p>
               <div>
