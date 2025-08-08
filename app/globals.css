@@ -1,0 +1,10 @@
+/* Custom font classes for Tailwind */
+.font-avenir {
+  font-family: 'Avenir', system-ui, sans-serif;
+}
+.font-freight {
+  font-family: 'FreightBig Pro', serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
