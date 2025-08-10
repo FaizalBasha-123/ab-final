@@ -85,38 +85,39 @@ export default function ServiceDetailsSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-white rounded-xl p-6 shadow-sm text-center">
               <div className="text-2xl font-avenir font-bold text-[#202b5e] mb-2">01</div>
-              <h4 className="font-avenir font-bold text-lg mb-2">Need Analysis + Field Visit</h4>
-              <div className="font-freight text-xs text-gray-500">week - 1</div>
+              <h4 className="font-avenir font-bold text-lg mb-2">Foundation & Control</h4>
+              <p className="font-freight text-gray-700 mb-2">Need Analysis, SWOT & GAP Analysis, Business Restructuring, Roles & Responsibilities, KPI Design, SOP Planning, Checklist & Trackers</p>
+              <div className="font-freight text-xs text-gray-500">Weeks 1-7</div>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm text-center">
               <div className="text-2xl font-avenir font-bold text-[#202b5e] mb-2">02</div>
-              <h4 className="font-avenir font-bold text-lg mb-2">Strategic Planning</h4>
-              <p className="font-freight text-gray-700 mb-2">Our experts create a detailed roadmap with clear milestones, timelines, and success metrics.</p>
-              <div className="font-freight text-xs text-gray-500">1 week</div>
+              <h4 className="font-avenir font-bold text-lg mb-2">Growth Discovery</h4>
+              <p className="font-freight text-gray-700 mb-2">Growth Discovery, Customer Journey Mapping</p>
+              <div className="font-freight text-xs text-gray-500">Weeks 8-10</div>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm text-center">
               <div className="text-2xl font-avenir font-bold text-[#202b5e] mb-2">03</div>
-              <h4 className="font-avenir font-bold text-lg mb-2">Implementation</h4>
-              <p className="font-freight text-gray-700 mb-2">Agile development with regular updates, testing, and client feedback integrated at every stage.</p>
-              <div className="font-freight text-xs text-gray-500">4-12 weeks</div>
+              <h4 className="font-avenir font-bold text-lg mb-2">Pricing & Benchmarking</h4>
+              <p className="font-freight text-gray-700 mb-2">Pricing Review, Competitive Benchmarking</p>
+              <div className="font-freight text-xs text-gray-500">Weeks 11-12</div>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm text-center">
               <div className="text-2xl font-avenir font-bold text-[#202b5e] mb-2">04</div>
-              <h4 className="font-avenir font-bold text-lg mb-2">Testing & Quality Assurance</h4>
-              <p className="font-freight text-gray-700 mb-2">Rigorous testing ensures your solution meets all requirements and quality standards.</p>
-              <div className="font-freight text-xs text-gray-500">1-2 weeks</div>
+              <h4 className="font-avenir font-bold text-lg mb-2">Sales & Campaign</h4>
+              <p className="font-freight text-gray-700 mb-2">Sales Plan, Local Campaign Blueprint</p>
+              <div className="font-freight text-xs text-gray-500">Weeks 13-14</div>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm text-center">
               <div className="text-2xl font-avenir font-bold text-[#202b5e] mb-2">05</div>
-              <h4 className="font-avenir font-bold text-lg mb-2">Deployment & Training</h4>
-              <p className="font-freight text-gray-700 mb-2">Smooth deployment with comprehensive training and documentation for your team.</p>
-              <div className="font-freight text-xs text-gray-500">1 week</div>
+              <h4 className="font-avenir font-bold text-lg mb-2">Expansion Planning</h4>
+              <p className="font-freight text-gray-700 mb-2">Expansion Options, Feasibility Analysis</p>
+              <div className="font-freight text-xs text-gray-500">Weeks 15-16</div>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm text-center">
               <div className="text-2xl font-avenir font-bold text-[#202b5e] mb-2">06</div>
-              <h4 className="font-avenir font-bold text-lg mb-2">Ongoing Support</h4>
-              <p className="font-freight text-gray-700 mb-2">Continuous monitoring, updates, and support to ensure optimal performance.</p>
-              <div className="font-freight text-xs text-gray-500">Ongoing</div>
+              <h4 className="font-avenir font-bold text-lg mb-2">Team & Strategy Alignment</h4>
+              <p className="font-freight text-gray-700 mb-2">Team Structure, Growth KPIs, Strategic Dashboard, Final Roadmap</p>
+              <div className="font-freight text-xs text-gray-500">Weeks 17-20</div>
             </div>
           </div>
         </div>
@@ -128,7 +129,7 @@ export default function ServiceDetailsSection() {
             Schedule a consultation and discover how we can transform your business with our proven process and guaranteed results.
           </p>
           <button className="bg-[#202b5e] text-white font-avenir font-bold py-4 px-8 rounded-lg hover:bg-[#3a4587] transition-colors">
-            Schedule A Consultation
+            Schedule a Consultation
           </button>
         </div>
 
