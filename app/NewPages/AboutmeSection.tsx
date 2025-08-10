@@ -63,28 +63,28 @@ export default function AboutmeSection() {
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Integrity First</h3>
-              <p className="font-freight text-gray-700">We believe in complete transparency. Every decision, every recommendation, and every solution is guided by what’s truly best for our clients’ success.</p>
+              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Clarity</h3>
+              <p className="font-freight text-gray-700">We simplify the complex for better decisions.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Innovation Excellence</h3>
-              <p className="font-freight text-gray-700">We don’t just follow trends – we anticipate them. Our team continuously invests in cutting-edge technologies to deliver future-ready solutions.</p>
+              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Accountability</h3>
+              <p className="font-freight text-gray-700">We own our work and drive measurable results.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Partnership Approach</h3>
-              <p className="font-freight text-gray-700">You’re not just a client, you’re our partner. We invest in understanding your business deeply to create solutions that truly fit your unique needs.</p>
+              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Practicality</h3>
+              <p className="font-freight text-gray-700">We deliver realistic, MSME-ready solutions.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Client Success</h3>
-              <p className="font-freight text-gray-700">Your success is our success. We measure our achievements not by projects completed, but by the growth and satisfaction of our partners.</p>
+              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Sustainability</h3>
+              <p className="font-freight text-gray-700">We build systems that outlast our engagement.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Quality Commitment</h3>
-              <p className="font-freight text-gray-700">Every solution undergoes rigorous testing and quality assurance. We don’t just deliver – we deliver excellence, every single time.</p>
+              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Growth</h3>
+              <p className="font-freight text-gray-700">We enable continuous improvement and scale.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Reliability Promise</h3>
-              <p className="font-freight text-gray-700">Deadlines aren’t just targets – they’re promises. Our track record speaks for itself: on-time delivery, within budget, exceeding expectations.</p>
+              <h3 className="font-avenir font-bold text-lg text-[#202b5e] mb-2">Partnership</h3>
+              <p className="font-freight text-gray-700">We work alongside founders as trusted allies.</p>
             </div>
           </div>
         </div>
