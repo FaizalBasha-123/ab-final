@@ -1,0 +1,62 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-avenir {
+  font-family: 'Avenir', system-ui, sans-serif;
+}
+.font-freight {
+  font-family: 'FreightBig Pro', serif;
+}
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+
+:root {
+  --header-height: 4rem;
+}
+
+.min-h-dvh { min-height: 100vh; }
+@supports (height: 100dvh) {
+  .min-h-dvh { min-height: 100dvh; }
+}
+
+.pt-safe { padding-top: var(--header-height); }
+@supports (padding-top: max(1px, 1px)) {
+  .pt-safe { padding-top: max(var(--header-height), env(safe-area-inset-top)); }
+}
+
+/* Intro animation utilities - apply data-intro to elements you want animated */
+[data-intro] {
+  opacity: 0;
+  transform: translateY(10px) scale(0.985);
+  will-change: opacity, transform;
+  transition: opacity 320ms cubic-bezier(0.22, 1, 0.36, 1), transform 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* When the element becomes visible via IntersectionObserver */
+.intro-visible {
+  opacity: 1 !important;
+  transform: translateY(0) scale(1) !important;
+}
+
+/* Modern reveal utility classes (kept names for compatibility) */
+.animate-fade-in-up {
+  opacity: 0;
+  transform: translateY(14px) scale(0.98);
+  transition: opacity 300ms cubic-bezier(0.22, 1, 0.36, 1), transform 300ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-fade-in-left {
+  opacity: 0;
+  transform: translateX(-14px) scale(0.98);
+  transition: opacity 300ms cubic-bezier(0.22, 1, 0.36, 1), transform 300ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.delay-100 { transition-delay: 70ms; }
+.delay-200 { transition-delay: 140ms; }
+.delay-300 { transition-delay: 210ms; }
+.delay-800 { transition-delay: 420ms; }
+
+/* When the element has the intro-visible class, make utility animations play */
+.intro-visible.animate-fade-in-up { opacity: 1; transform: translateY(0) scale(1); }
+.intro-visible.animate-fade-in-left { opacity: 1; transform: translateX(0) scale(1); }
